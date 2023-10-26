@@ -16,10 +16,6 @@ export class CartDetailComponent {
       this.discountRemaining = true;
     }
   }
-  currentDiscount = {
-    discountedPrice: 0,
-    discountpercentage: 0,
-  };
 
   applyCouponEnable(cat: number) {
     this.cart.applyCoupon(10);
