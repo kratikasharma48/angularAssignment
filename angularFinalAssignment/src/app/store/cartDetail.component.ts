@@ -17,7 +17,7 @@ export class CartDetailComponent {
     }
   }
 
-  applyCouponEnable(cat: number) {
-    this.cart.applyCoupon(10);
+  applyCouponEnable(couponvalue: number) {
+      this.cart.applyCoupon(couponvalue);
   }
 }
